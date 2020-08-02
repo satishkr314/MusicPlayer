@@ -1,0 +1,228 @@
+html,body
+{
+    /* box-sizing: border-box; */
+    height:100%;
+    padding:0.6%;
+    background-image:linear-gradient(to top right ,red,blue 120%);
+}
+header
+{
+    height:7%;
+    width:95%;
+    border:2px solid black;
+    background-color: purple;
+    font-size: 1.5rem;
+    color:yellow;
+    border-radius: 2rem;
+    display:flex;
+    box-sizing: border-box;
+    padding:0.5%;
+}
+.favourit
+{
+    margin-left: 4%;
+}
+.searchbox
+{
+    box-sizing: border-box;
+    width:20%;
+    margin-left: 40%;
+    background-color: red;
+    border-radius: 2rem;
+    color:yellow;
+    display:flex;
+    padding:0% 1% 0%;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) 
+{
+    .searchbox
+    {
+        margin-left: 10%;
+    }
+}
+.searchbox input
+{
+    margin-left: 2%;
+    display:none;
+    font-size: 1rem;
+}
+.notification
+{
+    font-size: 2rem;
+    margin-left: 5%;
+}
+.profile
+{
+    font-size: 2rem;
+    margin-left: 8%;
+}
+main
+{
+    height:90%;
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left:6%;
+    margin-top: 1%;
+}
+.artistIntro
+{
+    box-sizing:border-box ;
+    height:50%;
+    width:60%;
+    display:flex;
+    background-image:linear-gradient(to top right ,red,yellow 120%);
+    
+}
+.artistImg
+{
+    height:100%;
+    width:48%;
+    border:2px solid black;
+}
+.artistImg img
+{
+    height:98%;
+    width:100%;
+}
+.artistDetail
+{
+    box-sizing: border-box;
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.songType
+{
+    height:10%;
+    width:98%;
+    justify-content: space-between;
+    display:flex;
+}
+.play
+{
+    height:12%;
+    width:65%;
+    display:flex;
+    justify-content: space-between;
+}
+.play div
+{
+    height:100%;
+    width:20%;
+    background-color: red;
+    border-radius: 0.2rem;
+}
+.AllSong
+{
+    height:49%;
+    width:60%;
+   
+}
+.individualSong
+{
+    margin-top: 1%;
+    height:15%;
+    width:99%;
+    
+    background-image:linear-gradient(to top right ,red,yellow 120%);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.songDetail
+{
+    height:100%;
+    width:30%;
+    display:flex;
+    align-items: center;;
+}
+.songDetail img{
+    height:95%;
+    width:30%;
+    border-radius: 0.1rem;
+}
+.songDetail2
+{
+    height:100%;
+    width:15%;
+    display:flex;
+    justify-content: space-around;
+    color:red;
+    align-items: center;
+    
+}
+.side
+{
+    height:100%;
+    width:38%;
+    
+    display:flex;
+    flex-direction: column;
+}
+.similerArtist
+{
+    height:50%;
+    width:95%;
+    display:flex;
+    margin-left: 7%;
+    flex-direction:column;
+}
+.heading
+{
+    height:30%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.similerArtistRow
+{
+    height:25%;
+    width:100%;
+    margin-top: 1%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.similerArtistRow div
+{
+    height:100%;
+    width:30%;
+}
+.similerArtistRow div img
+{
+    height:100%;
+    width:50%;
+}
+.recentlyPlayed
+{
+    height:50%;
+    width:95%;
+    display:flex;
+    flex-direction: column;
+}
+.recentlyPlayedRow
+{
+    height:18%;
+    width:100%;
+    margin-left: 7%;
+    margin-top: 1%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.recentlyPlayedRow div
+{
+    height:100%;
+    width:30%;
+}
+.recentlyPlayedRow div img
+{
+    height:100%;
+    width:50%;
+}
